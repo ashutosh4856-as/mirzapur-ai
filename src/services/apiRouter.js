@@ -1,8 +1,8 @@
-// 🔑 API Keys — यहाँ डालो (या .env में)
+// 🔑 API Keys
 export const KEYS = {
-  gemini:     import.meta.env.VITE_GEMINI_KEY     || localStorage.getItem('mzp_g')  || '',
-  groq:       import.meta.env.VITE_GROQ_KEY       || localStorage.getItem('mzp_gr') || '',
-  openrouter: import.meta.env.VITE_OPENROUTER_KEY || localStorage.getItem('mzp_or') || '',
+  gemini:     '',
+  groq:       'YOUR_GROQ_KEY_HERE',
+  openrouter: '',
 };
 
 export const SYSTEM_PROMPT = `तुम "मिर्ज़ापुर AI" हो — smart, friendly, दोस्त जैसा AI assistant।
